@@ -93,7 +93,7 @@ const Dashboard: FC = () => {
 
   return (
     <div className="dashboard_wrapper">
-      <h3>rastaTech Financial Logger</h3>
+      <h3>rastaTech Finance Logger</h3>
       <section className="logs_input">
         <CreateSelect
           options={options}
