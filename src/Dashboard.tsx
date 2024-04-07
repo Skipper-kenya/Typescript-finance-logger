@@ -73,10 +73,10 @@ const Dashboard: FC = () => {
   const handleAddLog = () => {
     const notEmpty = () => {
       if (
-        inputValues.amount !== "" &&
-        inputValues.details !== "" &&
-        inputValues.toFro !== "" &&
-        inputValues.type !== ""
+        inputValues.amount &&
+        inputValues.details  &&
+        inputValues.toFro  &&
+        inputValues.type
       ) {
         return true;
       } else {
